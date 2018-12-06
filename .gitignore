@@ -1,0 +1,6 @@
+# this ignores files w/o extensions
+*
+!*/
+!*.*
+
+*.dwarf
