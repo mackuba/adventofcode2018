@@ -1,0 +1,2 @@
+files: ./**/*.cr
+run: crystal build %file% -o `echo "%file%" | sed -e 's/.cr//'`
